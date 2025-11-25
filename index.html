@@ -1,11 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Badar Uldin — Video Editor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#c07b72;--glass:rgba(255,255,255,0.03);}
+    *{box-sizing:border-box}html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,#f6f6f7 0%, #e9eaec 100%);color:#0b1220}
+    .wrap{max-width:980px;margin:30px auto;padding:24px}
+    .card{background:#ffffff;padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(8,10,15,0.06)}
+    header{display:flex;gap:18px;align-items:center}
+    .photo{width:120px;height:120px;border-radius:999px;overflow:hidden;border:6px solid #fff;box-shadow:0 4px 18px rgba(8,10,15,0.06)}
+    .photo img{width:100%;height:100%;object-fit:cover}
+    h1{font-size:26px;margin:0}
+    .title{color:var(--accent);font-weight:600;margin-top:6px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:18px}
+    .left{display:flex;flex-direction:column;gap:14px}
+    .section{padding:14px;border-radius:8px;background:linear-gradient(180deg,#fff,#fbfbfb);border:1px solid #eef0f2}
+    .section h3{margin:0 0 8px 0}
+    .muted{color:#536070;font-size:14px}
+    .skill-list{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{padding:8px 10px;border-radius:999px;background:#f1f5f8;font-size:13px;color:#183046}
+    .contact-list{display:flex;flex-direction:column;gap:6px}
+    .exp{display:flex;flex-direction:column;gap:10px}
+    .exp-item{padding:12px;border-radius:8px;background:#fafafa;border:1px solid #eef0f2}
+    .label{font-weight:600}
+    footer{text-align:center;color:#6b7280;margin-top:18px;font-size:13px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr} .right{order:2}}
+  </style>
 </head>
 <body>
-    <h1>hi abdul bari </h1>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div class="photo">
+          <img src="/imag/WhatsApp Image 2025-11-25 at 16.58.52_55b442d6.jpg" alt="Badar Uldin">
+        </div>
+        <div>
+          <h1>Badar Uldin</h1>
+          <div class="title">Video Editor</div>
+          <div style="margin-top:8px" class="muted">Highly motivated Video Editor with passion for storytelling, detail and producing high-quality content for social media and broadcast.</div>
+        </div>
+      </header>
+
+      <div class="grid">
+        <main class="left">
+          <section class="section">
+            <h3>About Me</h3>
+            <p class="muted">Highly motivated Video Editor with passion for storytelling & attention to detail. Expertise in Adobe Premiere Pro; delivering high-quality content with a strong educational foundation in Media Studies.</p>
+          </section>
+
+          <section class="section">
+            <h3>Skills</h3>
+            <div class="skill-list">
+              <div class="chip">Video Editing</div>
+              <div class="chip">Adobe Premiere Pro</div>
+              <div class="chip">Photography</div>
+              <div class="chip">Videography</div>
+              <div class="chip">Color Grading</div>
+              <div class="chip">Motion Graphics (basic)</div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h3>Experience</h3>
+            <div class="exp">
+              <div class="exp-item">
+                <div class="label">Video Editor & Content Creator — Global social co</div>
+                <div class="muted">June 2023 – Feb 2025</div>
+                <ul class="muted">
+                  <li>Edited social media content including videos and graphics.</li>
+                  <li>Developed workflows to increase editing efficiency.</li>
+                </ul>
+              </div>
+
+              <div class="exp-item">
+                <div class="label">Video Editor — Such Tv</div>
+                <div class="muted">(2 months)</div>
+                <ul class="muted">
+                  <li>Edited news and current affairs programs under tight deadlines.</li>
+                </ul>
+              </div>
+
+              <div class="exp-item">
+                <div class="label">Video Editor — JK News</div>
+                <div class="muted">(6 months)</div>
+                <ul class="muted">
+                  <li>Edited news segments and packages for broadcast.</li>
+                  <li>Collaborated with reporters and producers to create compelling stories.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h3>Education</h3>
+            <div class="muted label">Bachelor's in Media Studies — Riphah International University (2018–2022)</div>
+          </section>
+        </main>
+
+        <aside class="right" style="display:flex;flex-direction:column;gap:14px">
+          <section class="section">
+            <h3>Contact</h3>
+            <div class="contact-list muted">
+              <div>📞 03023134012</div>
+              <div>✉️ badar26009@gmail.com</div>
+              <div>📍 G-10/1, Islamabad</div>
+            </div>
+            </select>
+
+            <section class="section"> 
+              <h1> PROVIDE SERVICE PROJECTS</h1>
+           
+           </section>
+
+          <section class="section">
+            <h3>Languages</h3>
+            <div class="muted">English<br>Urdu<br>Sindhi</div>
+          </section>
+
+          <section class="section">
+            <h3>Download</h3>
+            <div style="display:flex;gap:8px;margin-top:8px">
+              <a href="#" onclick="downloadResume()" style="padding:10px 12px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none;">Download Resume</a>
+              <a href="#" onclick="downloadCVImage()" style="padding:10px 12px;border-radius:8px;border:1px solid #e6e9ec;text-decoration:none;color:#0b1220;">Download CV Image</a>
+            </div>
+          </section> 
+<!-- ALL  PROJECTS     -->
+
+<!-- Projects  1 -->
+          <section class="section">
+                 <h3>Projects  - 01</h3>
+            <div class="muted"> <a href="https://youtu.be/JHmcL--Ta6I?si=feYTEl7mYxy79c2g">video link</a> </div>
+                        <div class="muted"> <a href="https://youtu.be/bg_Rb7sw4JU?si=stfV2qoRbtNBomUD">video link</a> </div>
+                      <h5>youtube channel name  : Betterment Travel </h5>
+
+
+          <!-- Projects  2 -->
+    
+            <h3>Projects - 02</h3>
+            <div class="muted">  
+            <a href="https://youtu.be/JHmcL--Ta6I?si=feYTEl7mYxy79c2g"> Video link</a>
+              <h5> youtube channel name : Premiere Watch  </h5>
+            </div> 
+         
+           <!-- Projects  3 -->
+      
+            <h3>Projects  - 03</h3>
+            <div class="muted">   <a href="https://youtu.be/exDSKofpSI8?si=_6F06vs0LeYXf5Nx">Video link </a>        
+            </div>
+            <div class="muted"> <a href="https://youtu.be/rD_0my5DOyk?si=Jx0Mp9pb3Yqwh_yC">Video link</a>  </div>
+          <div class="muted">    <a href="https://youtu.be/7wi75uV280U?si=SQ4qfjlZxEWaBOP-">video link</a>   </div>
+              <h5>Youtube channel name : The Sportest </h5>
+            
+
+               <!-- Projects  4 -->
+    
+            <h3>Projects  - 04</h3>
+            <div class="muted">
+              <a href="https://youtu.be/Ihnp3IqLpJk?si=IMq_wosQ13tkdkHt">video lin - 01</a>
+            </div>
+            <div class="muted">
+              <a href="https://youtu.be/809Trz_LpHs?si=SvtSHwGkugkUoVmP">Video link - 02</a>
+            </div>
+            <h5> youtube channel name  : Smarter While You Sleep       </h5>
+         
+
+
+
+               <!-- Projects  5 -->
+            <h3>Projects  - 05</h3>
+            <div class="muted">
+              <a href="https://youtu.be/8WN7dkG36lE?si=6QsNS4zQrBSrM0ID">video - 01</a>
+            </div>
+                        <div class="muted">
+            <a href="https://youtu.be/mwG98VtSq0Q?si=G38UKmc4jDzB7vUH">video -02</a>
+         </div>
+         <h5> Youtube channel name : Más inteligente durmiendo (spanish)  ..... </h5>
+
+               <!-- Projects   -->
+                  
+            <h3><a href="projects.html">SeeMore Projects ....</a></h3>
+            <div class="muted">
+<a href=""></a>
+            </div>
+
+          </section>
+      
+      
+      
+      
+      
+      
+        </aside>
+      </div>
+
+    </div>
+
+    <footer>© 2025 Badar Uldin — Video Editor. Built from your CV.</footer>
+  </div>
+
+  <script>
+    function downloadResume(){
+      const text = `Badar Uldin\nVideo Editor\n\nContact:\nPhone: 03023134012\nEmail: badar26009@gmail.com\nLocation: G-10/1 Islamabad\n\nSkills:\n- Video Editing\n- Adobe Premiere Pro\n- Photography\n- Videography\n\nExperience:\n- Video Editor & Content Creator — Global social co (Jun 2023 - Feb 2025)\n- Video Editor — Such Tv (2 months)\n- Video Editor — JK News (6 months)\n\nEducation:\n- Bachelor's in Media Studies — Riphah International University (2018-2022)`;
+      const blob = new Blob([text], {type: 'text/plain'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url; a.download = 'Badar_Uldin_Resume.txt'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    }
+    function downloadCVImage(){
+      const url = '/mnt/data/1c91d317-0b49-4fc1-ba19-f2f1980cdd43.jpg';
+      const a = document.createElement('a'); a.href = url; a.download = 'CV_image.jpg'; document.body.appendChild(a); a.click(); a.remove();
+    }
+  </script>
 </body>
 </html>
